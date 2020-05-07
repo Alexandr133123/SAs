@@ -1,6 +1,7 @@
 let keys = document.querySelectorAll(".key"),
     note = document.querySelector(".nowplaying"),
-    hints = document.querySelectorAll(".hints");
+    hints = document.querySelectorAll(".hints"),
+    arrnotes = { note:["A", "W", "S","E","D","F","T","G","Y","H","U","J","K","O","L","P",";"]};
 
 function playNote(e) {
   let audio = document.querySelector(`audio[data-key="${e.keyCode}"]`),
@@ -30,3 +31,10 @@ hints.forEach(hintsOn);
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
 window.addEventListener("keydown", playNote);
+
+
+function game() {
+  let rand = Math.floor(Math.random() * arrnotes.note.length);
+
+}
+

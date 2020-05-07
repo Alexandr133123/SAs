@@ -14,55 +14,55 @@
     <section id="main">
       <div class="nowplaying"></div>
       <div class="keys">
-        <div data-key="65" class="key" data-note="C">
+        <div data-key="65" class="key" data-note="A">
             <span class="hints">A</span>
         </div>
-        <div data-key="87" class="key sharp" data-note="C#">
+        <div data-key="87" class="key sharp" data-note="W">
             <span class="hints">W</span>
         </div>
-        <div data-key="83" class="key" data-note="D">
+        <div data-key="83" class="key" data-note="S">
             <span class="hints">S</span>
         </div>
-        <div data-key="69" class="key sharp" data-note="D#">
+        <div data-key="69" class="key sharp" data-note="E">
             <span class="hints">E</span>
         </div>
-        <div data-key="68" class="key" data-note="E">
+        <div data-key="68" class="key" data-note="D">
             <span class="hints">D</span>
         </div>
         <div data-key="70" class="key" data-note="F">
             <span class="hints">F</span>
         </div>
-        <div data-key="84" class="key sharp" data-note="F#">
+        <div data-key="84" class="key sharp" data-note="T">
             <span class="hints">T</span>
         </div>
         <div data-key="71" class="key" data-note="G">
             <span class="hints">G</span>
         </div>
-        <div data-key="89" class="key sharp" data-note="G#">
+        <div data-key="89" class="key sharp" data-note="Y">
             <span class="hints">Y</span>
         </div>
-        <div data-key="72" class="key" data-note="A">
+        <div data-key="72" class="key" data-note="H">
             <span class="hints">H</span>
         </div>
-        <div data-key="85" class="key sharp" data-note="A#">
+        <div data-key="85" class="key sharp" data-note="U">
             <span class="hints">U</span>
         </div>
-        <div data-key="74" class="key" data-note="B">
+        <div data-key="74" class="key" data-note="J">
             <span class="hints">J</span>
         </div>
-        <div data-key="75" class="key" data-note="C">
+        <div data-key="75" class="key" data-note="K">
             <span class="hints">K</span>
         </div>
-        <div data-key="79" class="key sharp" data-note="C#">
+        <div data-key="79" class="key sharp" data-note="O">
             <span class="hints">O</span>
         </div>
-        <div data-key="76" class="key" data-note="D">
+        <div data-key="76" class="key" data-note="L">
             <span class="hints">L</span>
         </div>
-        <div data-key="80" class="key sharp" data-note="D#">
+        <div data-key="80" class="key sharp" data-note="P">
             <span class="hints">P</span>
         </div>
-        <div data-key="186" class="key" data-note="E">
+        <div data-key="186" class="key" data-note=";">
             <span class="hints">;</span>
         </div>
       </div>
@@ -85,9 +85,13 @@
       <audio data-key="80" src="sounds/16.wav"></audio>
       <audio data-key="186" src="sounds/17.wav"></audio>
       </section>
+      <button class="button" onclick="game()">Играть</button>
+      <button class="button">Сохранить мелодию</button>
   </section>
+
   <video playsinline autoplay muted loop id="bgvid" poster="bg.jpg">
       <source src="bg.mp4" type="video/mp4">
   </video>
+
   </body>
 </html>

@@ -5,7 +5,7 @@ html  {
         text-align: center;
       }
 
-      video#bgvid { 
+     video#bgvid { 
         position: fixed;
         top: 50%;
         left: 50%;
@@ -72,7 +72,7 @@ html  {
       position: relative;
       border: 4px solid black;
       border-radius: .5rem;
-      transition: all .07s ease;
+      transition: all .1s ease;
       display: block;
       box-sizing: border-box;
       z-index: 2;
@@ -141,4 +141,76 @@ html  {
 
     .keys:hover .hints {
       opacity: 1;
+    }
+
+    .button{
+      text-align:center;
+      height: 60px;
+      width: 200px;
+      border-radius: 30px;
+      border: 4px ;
+      border-style: solid; 
+      border-color: black;
+      margin-top: 60px;
+      font-stretch: extra-expanded; 
+      font-family: 'Arial Black', serif;
+    }
+    .button:hover{
+      text-align:center;
+      height: 60px;
+      width: 200px;
+      border-radius: 30px;
+      border: 4px ;
+      border-style: solid; 
+      border-color: white;
+      margin-top: 60px;
+      background-color: black;
+      font-stretch: extra-expanded; 
+      color:white;
+      font-family: 'Arial Black', serif;
+
+    }
+
+   
+
+    .key.right{
+       position: relative;
+      border: 4px solid black;
+      border-radius: .5rem;
+      transition: all .1s ease;
+      display: block;
+      box-sizing: border-box;
+      background-color:blue; 
+      z-index: 2;
+    }
+    .key.mist{
+       position: relative;
+      border: 4px solid black;
+      border-radius: .5rem;
+      transition: all .1s ease;
+      display: block;
+      box-sizing: border-box;
+      background-color:red; 
+      z-index: 2;
+    }
+
+    .key.sharp.right {
+      position: absolute;
+      width: 6%;
+      height: 60%;
+      background: #000;
+      color: #eee;
+      top: 0;
+      border: 4px solid blue;
+      z-index: 3;
+    }
+    .key.sharp.mist {
+      position: absolute;
+      width: 6%;
+      height: 60%;
+      background: #000;
+      color: #eee;
+      top: 0;
+      border: 4px solid blue;
+      z-index: 3;
     }
