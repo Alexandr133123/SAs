@@ -76,6 +76,7 @@ html  {
       display: block;
       box-sizing: border-box;
       z-index: 2;
+      border-color: black;
     }
 
     .key:not(.sharp) {
@@ -93,6 +94,7 @@ html  {
       color: #eee;
       top: 0;
       z-index: 3;
+      v
     }
 
     .key[data-key="87"] {
@@ -173,44 +175,4 @@ html  {
 
    
 
-    .key.right{
-       position: relative;
-      border: 4px solid black;
-      border-radius: .5rem;
-      transition: all .1s ease;
-      display: block;
-      box-sizing: border-box;
-      background-color:blue; 
-      z-index: 2;
-    }
-    .key.mist{
-       position: relative;
-      border: 4px solid black;
-      border-radius: .5rem;
-      transition: all .1s ease;
-      display: block;
-      box-sizing: border-box;
-      background-color:red; 
-      z-index: 2;
-    }
-
-    .key.sharp.right {
-      position: absolute;
-      width: 6%;
-      height: 60%;
-      background: #000;
-      color: #eee;
-      top: 0;
-      border: 4px solid blue;
-      z-index: 3;
-    }
-    .key.sharp.mist {
-      position: absolute;
-      width: 6%;
-      height: 60%;
-      background: #000;
-      color: #eee;
-      top: 0;
-      border: 4px solid blue;
-      z-index: 3;
-    }
+  
